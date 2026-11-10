@@ -2,7 +2,7 @@
 
 > **Windows Desktop 也能使用官方 agy ACP 多账号隔离与智能调度。** 通过 WSL 运行 Linux agy，以 ACP/stdio 接入 DSH；支持可切换账号的 5 小时／每周额度卡片。此方案为实验性适配，不是 CPA 模型反代。[查看 Windows WSL 安装与限制](./WINDOWS-WSL.md)。
 >
-> 本仓库基于 [lili-luo/dsh-plugin-bundle](https://github.com/lili-luo/dsh-plugin-bundle/tree/main/dsh-llm-antigravity-acp)，感谢原作者；保留 MIT 许可证。以下为上游原有说明，Windows WSL 使用方式以本分支文档为准。
+> 本仓库基于 [lili-luo/dsh-plugin-bundle](https://github.com/lili-luo/dsh-plugin-bundle/tree/main/dsh-llm-antigravity-acp)，感谢原作者；保留 MIT 许可证。Windows WSL 适配及多账号额度界面由仓库维护者与 **ChatGPT（OpenAI，AI 协作贡献者）**共同完成。以下为上游原有说明，Windows WSL 使用方式以本分支文档为准。
 
 把本机已登录的 Google Antigravity CLI（`agy`）作为 DeepSeek Harness 的一级模型 provider 接入。模型出现在输入框右下角的模型选择器里，与 DeepSeek、GLM 等直连 provider 同级使用；工具、权限、压缩、子代理全部由 DSH 负责。
 
