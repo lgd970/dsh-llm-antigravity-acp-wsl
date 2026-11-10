@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "distro": "Ubuntu",
+  "windowsBinary": "C:\\path\\to\\agy.exe",
+  "linuxBinary": "/path/to/agy",
+  "launcher": "/mnt/c/path/to/plugin/scripts/wsl-launch.py",
+  "proxy": ""
+}

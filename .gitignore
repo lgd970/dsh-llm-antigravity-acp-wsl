@@ -1,0 +1,6 @@
+node_modules/
+*.tgz
+*.tsbuildinfo
+.DS_Store
+wsl-backend.json
+__pycache__/
